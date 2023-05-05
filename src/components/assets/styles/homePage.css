@@ -1,0 +1,117 @@
+
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: #4C5455;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.main-buttons {
+    position: relative;
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+
+.bagair-logo {
+    width: 110px;
+    height: 110px;
+    margin: 20px;
+    background: #636D6E;
+}
+
+.main-title {
+    font-family: 'Play';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 42px;
+    letter-spacing: 0.06em;
+    color: #F9DE25;
+}
+
+.main-heading {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+
+.main-para {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 15px;
+    text-align: center;
+    color: rgba(196, 196, 196, 0.67);
+}
+
+.main-buttons {
+    position: relative;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+
+.login-button,
+.register-button {
+    margin: 10px;
+    padding: 10px;
+    background-color: #fff;
+    border:none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+
+#login-btn {
+    width: 273px;
+    height: 45px;
+    background: #F9DE25;
+    color: #4C5455;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 19px;
+
+}
+
+#register-btn {
+    width: 273px;
+    height: 45px;
+    background: #636D6E;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 19px;
+    color: #FFFFFF
+
+}
+
+#login-btn:hover {
+    background-color: #FFF9F9;
+}
+#register-btn:hover  {
+    background-color:  #473F3F;
+
+}
+
